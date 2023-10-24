@@ -1,0 +1,105 @@
+body{
+    max-width: 100%;
+    max-height: 100%;
+    background-color: cyan;
+}
+.header{
+    text-align: end;
+    word-spacing: 30px;
+    background-color: rgb(6, 255, 47);
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: blue;
+}
+.myphoto{
+    max-width: 20%;
+    max-height: 20%;
+    border-radius: 40%;
+}
+.line{
+    border-top: 30px solid rgb(251, 3, 235);
+}
+#projects{
+    text-align: center;
+    max-width: 90%;
+    max-height: 90%;
+}
+#serveyform{
+    display: inline;
+    max-width: 42%;
+    max-height: auto;
+    margin: 9px;
+    border-color:  solid black;
+}
+#JSNOTES{
+    max-width: 42%;
+    max-height: auto;
+}
+#projects2{
+    text-align: center;
+    max-width: 90%;
+    max-height: 90%;
+}
+#Abdul{
+    display: inline;
+    max-width: 42%;
+    max-height: auto;
+    margin: 9px;
+}
+#calculator{
+    max-width: 42%;
+    max-height: auto;
+}
+#projects3{
+    text-align: center;
+    max-width: 90%;
+    max-height: 90%;
+}
+#analogclock{
+    max-width: 42%;
+    max-height: auto;
+    margin: 9px;
+}
+
+.logo1,.logo2,.logo3,.logo4{
+    max-width: 20px;
+    max-height: 20px;
+}
+#contact{
+    display: flex;
+    padding-left: 20px;
+    column-gap: 200px;
+}
+.contact1:hover{
+    animation-name: contacts;
+}
+.contact2:hover{
+    animation-name: contacts;
+}
+.contact3:hover{
+    animation-name: contacts;
+}
+.contact4:hover{
+    animation-name: contacts;
+    animation-duration: 5s;
+}
+
+@keyframes contacts{
+    0%{
+        scroll-padding: 20px;
+        transform-origin: 2px;
+    }
+    50%{
+        scroll-padding: 40px;   
+        transform-origin: 2px;
+    }
+    100%{
+        scroll-padding: 90px;
+        transform-origin: 2px;
+    }
+}
